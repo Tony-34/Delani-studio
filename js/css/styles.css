@@ -1,0 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+.landing{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 17%;
+}
+img{
+    height: 80vh;
+    width: 80%;
+}
