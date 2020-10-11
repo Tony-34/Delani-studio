@@ -11,3 +11,19 @@ html{
     height: 80vh;
     width: 80%;
 }
+.about{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px; 
+    font-family: 'copse' serif;
+}
+.services{
+    text-align: center;
+    
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Copse', serif;
+    font-size: 18px;
+}
