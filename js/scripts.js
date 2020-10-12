@@ -1,32 +1,32 @@
 $(document).ready(function(){
-  $("#dev_icon.png").click(function(){
-  $("#dev_icon.png").toggle();
-  $("#development").toggle();
-});
-    $("#development").click(function(){
-      $("#development").slideUp();
-      $("#dev-icon.png").slideDown();
-    });
-});
-$(document).ready(function(){
-  $("#design-img").click(function(){
-  $("#design-img").toggle();
-  $("#design").toggle();
-});
-    $("#design").click(function(){
-      $("#design").slideUp();
-      $("#design-icon.png").slideDown();
-    });
+  $("#development-image").click(function(){
+    $("#development-image").slideDown().hide();
+    $("#development").show();
+  });
+  $("#development").click(function(){
+    $("#development").slideUp();
+    $("#development-image").slideDown();
+  });
 });
 $(document).ready(function(){
-  $("#product-img").click(function(){
-  $("#product-img").toggle();
-  $("#product").toggle();
+  $("#design-image").click(function(){
+    $("#design-image").slideDown().hide();
+    $("#design").show();
+  });
+  $("#design").click(function(){
+    $("#design").slideUp();
+    $("#design-image").slideDown();
+  });
 });
-    $("#product").click(function(){
-      $("#product").slideUp();
-      $("#product-icon").slideDown();
-    });
+$(document).ready(function(){
+  $("#product-image").click(function(){
+    $("#product-image").slideDown().hide();
+    $("#product").show();
+  });
+  $("#product").click(function(){
+    $("#product").slideUp();
+    $("#product-image").slideDown();
+  });
 });
 
 $(document).ready(function(){
@@ -79,36 +79,7 @@ $(document).ready(function(){
       $("#overlay8").hide();
     });
   });
-// $(document).ready(function(){
-//   $("#dev_icon.png").click(function(){
-//   $("#dev_icon.png").toggle();
-//   $("#development").toggle();
-// });
-//     $("#development").click(function(){
-//       $("#development").slideUp();
-//       $("#dev-icon.png").slideDown();
-//     });
-// });
-// $(document).ready(function(){
-//   $("#design-img").click(function(){
-//   $("#design-img").toggle();
-//   $("#design").toggle();
-// });
-//     $("#design").click(function(){
-//       $("#design").slideUp();
-//       $("#design-icon.png").slideDown();
-//     });
-// });
-// $(document).ready(function(){
-//   $("#product-img").click(function(){
-//   $("#product-img").toggle();
-//   $("#product").toggle();
-// });
-//     $("#product").click(function(){
-//       $("#product").slideUp();
-//       $("#product-icon").slideDown();
-//     });
-// });
+
 
 $(document).ready(function(){
   $("form#form47A").submit(function(event){
@@ -125,3 +96,33 @@ $(document).ready(function(){
     
   });
 });
+// $(document).ready(function(){
+//   $("#development-image").click(function(){
+//     $("#development-image").slideDown().hide();
+//     $("#development").show();
+//   });
+//   $("#development").click(function(){
+//     $("#development").slideUp();
+//     $("#development-image").slideDown();
+//   });
+// });
+// $(document).ready(function(){
+//   $("#design-image").click(function(){
+//     $("#design-image").slideDown().hide();
+//     $("#design").show();
+//   });
+//   $("#design").click(function(){
+//     $("#design").slideUp();
+//     $("#design-image").slideDown();
+//   });
+// });
+// $(document).ready(function(){
+//   $("#product-image").click(function(){
+//     $("#product-image").slideDown().hide();
+//     $("#product").show();
+//   });
+//   $("#product").click(function(){
+//     $("#product").slideUp();
+//     $("#product-image").slideDown();
+//   });
+// });
