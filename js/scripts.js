@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#work1").mouseover(function(){
-      $("#overlay").show();
+      $("#overlay1").show();
     }).mouseout(function(){
-      $("#overlay").hide();
+      $("#overlay1").hide();
     });
   });
   $(document).ready(function(){
@@ -48,3 +48,5 @@ $(document).ready(function(){
       $("#overlay8").hide();
     });
   });
+
+  
