@@ -16,3 +16,16 @@
     margin-top: 10px;
     margin-bottom: 15px;
 }
+.landing p{
+    text-transform: uppercase;
+    color: white;
+    padding: 2px;
+}
+.about{
+    text-align: center;
+}
+#about-us p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
