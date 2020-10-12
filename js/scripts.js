@@ -82,7 +82,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("form#form47A").submit(function(event){
+  $("form").submit(function(event){
     event.preventDefault();
     var name = $("input#MERGE1").val();
     var email = $("input#MERGE0").val();
