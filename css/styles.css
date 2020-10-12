@@ -91,6 +91,13 @@
     font-size: 30px;
     padding-top: 50%;
 }
+.what-we-do{
+    text-align: center;
+}
+#design,#development,#productmanagement{
+display: none;
+}
+#name,
 
 
 
