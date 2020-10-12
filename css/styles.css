@@ -1,0 +1,18 @@
+.landing{
+    background-image: url("../images/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 18px;
+    height: 620px;
+}
+.landing h1{
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+#logo{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
