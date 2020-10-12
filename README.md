@@ -1,6 +1,6 @@
 # Delani-studio
 
-#### *Author Tony Abong'O**
+#### Author Tony Abong'O
 
 ## Description
 -This is a web application about delani studio ,the services they offer ,what they do to make your experience great ,a portfolio and a form that enables you to express yourself on how you feel about then ,your inquiries and most probably your concerns.
@@ -23,7 +23,7 @@ To run the application in your terminal:
 | :------------- | :----------: | -----------: |
 |  Enter your name  |   Tony Abong'o |     |
 | Enter your Email Address  | tr339477@gmail.com |   |
-| Enter your message or comment   |  I like to work with you     |     |
+| Enter your message or comment   |  I  would like to work with you     |     |
 | Press Submit|     |Pop up "Tony Abong'o , we have received your message. Thank you for reaching out to us.|
 
 ## Known Bugs
